@@ -7,7 +7,7 @@ The key should not be known as only the person who owns the key should have acce
 
 The input value is X and the value to which the encryption key is applied is called X'. The differential value of the input X, ΔX, can be calculated as follows.
 
->> X ⊕ X’ = ΔX
+> X ⊕ X’ = ΔX
 
 Assuming that the result of encrypting the n-bit plaintext X, X' is the ciphertext Y, Y', in the case of an ideal cipher, the probability of a specific Y, Y' difference with respect to the difference between X and X' is 1/(2<sup>n</sup>). However, this probability may be greater if the cipher is designed to be weak.
 An attacker can use these properties to recover the secret key (encryption key).
