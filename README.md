@@ -95,7 +95,7 @@ The process of performing quantum differential cryptanalysis on an 8-bit toy cip
 (Toy cipher is a simple cipher)
 
 ### Figure 2. Grover Oracle for differential Distinguisher(search plaintext)
-<img width="700" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/55376144/153199913-67ede29b-09fb-4aa1-a65f-14b9a2882e37.png">
+<img width="300" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/55376144/153199913-67ede29b-09fb-4aa1-a65f-14b9a2882e37.png">
 
 1. First, 16-qubits are allocated to find an 8-bit plaintext pair(p, p’) that assigns the differential characteristics(a', b').
 2. p is placed in the superposition state using Hadamard gates.
