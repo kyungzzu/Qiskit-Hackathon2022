@@ -41,6 +41,7 @@ The target cipher is the Toy version of PRESENT (“Small Scale Variants Of The 
 
 ### Figure 1. The algorithm of Toy version PRESENT
 ![present_toy_cipher](https://user-images.githubusercontent.com/98728562/153250497-aceadb0c-6759-4a34-a704-acf92e905038.png)
+<img width="1400" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/98728562/153250497-aceadb0c-6759-4a34-a704-acf92e905038.png">
 
 The version we used for attack uses 8-bit plaintext, 8-bit key, and runs in 4 rounds. First, we implement the target cipher as a quantum circuit.
 
@@ -95,7 +96,7 @@ The process of performing quantum differential cryptanalysis on an 8-bit toy cip
 (Toy cipher is a simple cipher)
 
 ### Figure 2. Grover Oracle for differential Distinguisher(search plaintext)
-<img width="300" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/55376144/153199913-67ede29b-09fb-4aa1-a65f-14b9a2882e37.png">
+<img width="1400" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/55376144/153199913-67ede29b-09fb-4aa1-a65f-14b9a2882e37.png">
 
 1. First, 16-qubits are allocated to find an 8-bit plaintext pair(p, p’) that assigns the differential characteristics(a', b').
 2. p is placed in the superposition state using Hadamard gates.
