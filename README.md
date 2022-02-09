@@ -40,7 +40,7 @@ Grover Diffusion operator amplifies the inverted amplitude of x in Oracle. Throu
 The target cipher is the Toy version of PRESENT (“Small Scale Variants Of The Block Cipher PRESENT”, Gregor Leander). The algorithm is shown in the Figure 1.
 
 ### Figure 1. The algorithm of Toy version PRESENT
-<img width="1000" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/98728562/153250497-aceadb0c-6759-4a34-a704-acf92e905038.png">
+<img width="300" alt="Quantum_circuit" src="https://user-images.githubusercontent.com/98728562/153250497-aceadb0c-6759-4a34-a704-acf92e905038.png">
 
 The version we used for attack uses 8-bit plaintext, 8-bit key, and runs in 4 rounds. First, we implement the target cipher as a quantum circuit.
 
