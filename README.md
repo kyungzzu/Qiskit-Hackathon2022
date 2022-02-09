@@ -111,7 +111,7 @@ Quantum differential cryptanalysis uses a total of 16 qubits, 72 Hadamard gates,
 
 
 ### Table 1. The quantum resources required for quantum differential cryptanalysis.
-|Qubit|Hadamard Gate|Toffoli Gate|CNOT Gate|7-Controlled Gate|X Gate|Depth|
+|Qubit|Hadamard Gate|Toffoli Gate|CNOT Gate|7-Controlled Z Gate|X Gate|Depth|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |16|72|512|768|8|376|340|
 
